@@ -1,8 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-    title: "WishCraft - personalized Birthday Celebration",
+    title: "WishCraft - Personalized Birthday Celebration",
     description: "Create a magical birthday celebration for your loved ones.",
+    icons: {
+        icon: "/favicon.svg",
+    },
 };
 
 export default function RootLayout({ children }) {

@@ -23,7 +23,7 @@ export default function FormCard({ formData, setFormData, onStart }) {
                     <label className="block text-sm font-medium text-gray-700 mb-1">Birthday Name</label>
                     <input
                         type="text"
-                        className="w-full px-4 py-2 rounded-xl border border-purple-200 focus:ring-2 focus:ring-purple-400 focus:border-transparent outline-none transition-all"
+                        className="w-full px-4 py-2 rounded-xl border border-purple-200 focus:ring-2 focus:ring-purple-400 focus:border-transparent outline-none transition-all text-gray-900"
                         placeholder="Enter name..."
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -35,7 +35,7 @@ export default function FormCard({ formData, setFormData, onStart }) {
                         <label className="block text-sm font-medium text-gray-700 mb-1">Age</label>
                         <input
                             type="number"
-                            className="w-full px-4 py-2 rounded-xl border border-purple-200 focus:ring-2 focus:ring-purple-400 focus:border-transparent outline-none transition-all"
+                            className="w-full px-4 py-2 rounded-xl border border-purple-200 focus:ring-2 focus:ring-purple-400 focus:border-transparent outline-none transition-all text-gray-900"
                             placeholder="e.g. 21"
                             value={formData.age}
                             onChange={(e) => setFormData({ ...formData, age: e.target.value })}
@@ -55,7 +55,7 @@ export default function FormCard({ formData, setFormData, onStart }) {
                 <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">Birthday Message</label>
                     <textarea
-                        className="w-full px-4 py-2 rounded-xl border border-purple-200 focus:ring-2 focus:ring-purple-400 focus:border-transparent outline-none transition-all min-h-[100px]"
+                        className="w-full px-4 py-2 rounded-xl border border-purple-200 focus:ring-2 focus:ring-purple-400 focus:border-transparent outline-none transition-all min-h-[100px] text-gray-900"
                         placeholder="Write something sweet..."
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
